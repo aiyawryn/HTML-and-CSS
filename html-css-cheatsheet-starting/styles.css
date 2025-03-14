@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Mono", monospace, sans-serif;
+  background-color: rgb(255, 250, 240);
+  color: #696969;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+table {
+  margin: 30px auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(47, 79, 79);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 30px;
+}
+
+th {
+  background-color: #f5f5dc;
+}
