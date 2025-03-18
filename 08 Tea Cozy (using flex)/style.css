@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header section */
+header {
+  display: flex;
+  justify-content: space-between; /* Ensures proper spacing the logo and navigation */
+  align-items: center;
+  height: 69px;
+  margin: 0px 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none; /* Removes default bullet points */
+  display: flex;
+  display: flex; /* Places the links in a horizontal line */
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline decoration from links */
+  color: seashell;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+  transition: 0.3s ease;
+}
+
+/* mission section */
+#mission {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stacks the heading and paragraph vertically */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  height: 700px;
+  width: 1200px;
+  background-image: url(pic/img-mission-background.jpg);
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image within the section */
+}
+
+#mission h2 {
+  width: 1200px; /* Sets the full width for the heading */
+  text-align: center; /* Centers the text */
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#mission p {
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.tea-item img {
+  height: 200px;
+  width: 300px;
+}
+
+/* featured-tea section */
+
+#featured-tea {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#featured-tea .tea-items {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Location section */
+#locations {
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url(pic/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image within the section */
+}
+
+.each-locatin {
+  margin: 15px auto;
+  display: flex;
+  gap: 40px;
+}
+
+.location {
+  background-color: black;
+  padding: 20px;
+  opacity: 1;
+}
+
+/* contact section */
+.contact {
+  margin: 20px auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* footer */
+footer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
